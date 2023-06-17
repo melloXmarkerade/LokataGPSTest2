@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LokataGPSTest2</string>
+    <string name="title_activity_gpsactivity">GPSActivity</string>
+    <string name="title_activity_madaue_teamlocation">MadaueTEAMLocation</string>
+    <string name="title_activity_cctoimpoundment">CCTOImpoundment</string>
+    <string name="title_activity_lapu_lapu_impoundment">LapuLapuImpoundment</string>
+</resources>

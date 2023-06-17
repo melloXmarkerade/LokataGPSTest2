@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Locate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="23dp"
+        android:text="Impoundment Area Locations"
+        app:layout_constraintStart_toStartOf="@+id/CebuCCTOButton"
+        app:layout_constraintTop_toBottomOf="@+id/CebuCCTOButton" />
+
+    <Button
+        android:id="@+id/CebuCCTOButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:text="Cebu City Impoundment Office"
+        app:layout_constraintEnd_toEndOf="@+id/TEAMButton"
+        app:layout_constraintTop_toBottomOf="@+id/TEAMButton" />
+
+    <Button
+        android:id="@+id/TEAMButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="2dp"
+        android:text="Mandaue Impoundment Office"
+        app:layout_constraintEnd_toEndOf="@+id/LapuLapuBut"
+        app:layout_constraintTop_toBottomOf="@+id/LapuLapuBut" />
+
+    <Button
+        android:id="@+id/LapuLapuBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:text="Lapu Lapu Umpoundment Area"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
